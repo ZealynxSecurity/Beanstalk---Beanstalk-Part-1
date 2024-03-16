@@ -12,6 +12,8 @@ require("@openzeppelin/hardhat-upgrades");
 require("dotenv").config();
 require("@nomiclabs/hardhat-etherscan");
 
+require("@nomicfoundation/hardhat-foundry");
+
 // BIP 39 
 const { bipSeedGauge } = require("./scripts/bips.js");
 //

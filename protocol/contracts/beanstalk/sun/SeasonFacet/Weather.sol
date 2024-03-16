@@ -286,4 +286,14 @@ contract Weather is Sun {
         // the sopToken is the non bean token in the well.
         sopToken = tokens[beanIndex == 0 ? 1 : 0];
     }
+
+
+    function getTemperature() public view returns (uint32) {
+        return s.w.t;
+    }
+
+    // Función getter para BeanToMaxLpGpPerBdvRatio
+    function getBeanToMaxLpGpPerBdvRatio() public view returns (uint128) {
+        return s.seedGauge.beanToMaxLpGpPerBdvRatio;
+    }
 }

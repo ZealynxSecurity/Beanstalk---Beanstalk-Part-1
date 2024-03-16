@@ -170,7 +170,7 @@ contract FieldDiffTest is Test {
                 return _scaleTemperature(t, 968166659804);
             }
             else { // delta == 23
-                return _scaleTemperature(t, 979226436102);
+//                 return _scaleTemperature(t, 979226436102);
             }
         }
         else { // delta == 24

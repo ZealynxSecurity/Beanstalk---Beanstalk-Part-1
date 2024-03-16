@@ -26,7 +26,7 @@ import {OwnershipFacet} from "contracts/beanstalk/diamond/OwnershipFacet.sol";
 import {MockSiloFacet} from "contracts/mocks/mockFacets/MockSiloFacet.sol";
 import {BDVFacet} from "contracts/beanstalk/silo/BDVFacet.sol";
 import {ConvertFacet} from "contracts/beanstalk/silo/ConvertFacet.sol";
-import {WhitelistFacet} from "contracts/beanstalk/silo/WhitelistFacet.sol";
+import {WhitelistFacet} from "contracts/beanstalk/silo/WhitelistFacet/WhitelistFacet.sol";
 
 // Field
 import {MockFieldFacet} from "contracts/mocks/mockFacets/MockFieldFacet.sol";
