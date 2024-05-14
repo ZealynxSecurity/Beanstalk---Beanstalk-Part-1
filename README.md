@@ -14,6 +14,8 @@ The defaultGaugePointFunction in the smart contract does not explicitly handle t
 This behavior can lead to an undesired decrease in incentives for contract participants, potentially affecting participation and reward accumulation within the contract's ecosystem. Users may lose gauge points and, consequently, rewards due to a technical flaw rather than their actions.
 
 ## Proof of Concept (PoC)
+[TEST](https://github.com/ZealynxSecurity/Beanstalk---Beanstalk-Part-1/blob/main/protocol/test/foundry/sun/Lynx_GaugePointFacet.t.sol)
+
 The testnew_GaugePointAdjustment() test demonstrated this flaw by providing inputs where currentGaugePoints = 1189, optimalPercentDepositedBdv = 64, and percentOfDepositedBdv = 64, expecting newGaugePoints to equal currentGaugePoints. However, the outcome was newGaugePoints = 0, indicating an unexpected reduction to zero.
 
 ```solidity
