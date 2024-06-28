@@ -3,7 +3,7 @@ pragma solidity >=0.7.6 <0.9.0;
 pragma abicoder v2;
 
 import "forge-std/Test.sol";
-import "../../contracts/beanstalk/sun/GaugePointFacet.sol";
+import "../../../contracts/beanstalk/sun/GaugePointFacet.sol";
 
 contract GaugePointFacetTest is Test {
     GaugePointFacet gaugePointFacet;
